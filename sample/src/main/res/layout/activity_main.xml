@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.shentu.mzviewpager.MzViewPager
+        android:id="@+id/mz_pager"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        app:auto_play="false"
+        app:is_loop="true"
+        android:layout_marginTop="50dp"
+        app:is_cover="false"
+        app:mz_mode="mz_children"/>
+
+
+    <com.shentu.mzviewpager.MzViewPager
+        android:id="@+id/mz_pager_cover"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        app:auto_play="false"
+        app:is_loop="true"
+        app:is_cover="true"
+        android:layout_marginTop="50dp"
+        app:mz_mode="mz_children"/>
+
+</LinearLayout>

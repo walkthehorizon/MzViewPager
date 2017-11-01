@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MzViewPager">
+        <attr name="mz_mode" format="enum">
+            <enum name="mz_padding" value="-1"/>
+            <enum name="mz_children" value="1"/>
+        </attr>
+        <attr name="is_loop" format="boolean"/>
+        <attr name="auto_play" format="boolean"/>
+        <attr name="is_cover" format="boolean"/>
+    </declare-styleable>
+</resources>
